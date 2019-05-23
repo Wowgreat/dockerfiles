@@ -1,4 +1,4 @@
 FROM scratch
-ADD hello /
-cmd ./hello
-
+ADD hello /work/
+WORKDIR /work
+CMD ["./hello"]
