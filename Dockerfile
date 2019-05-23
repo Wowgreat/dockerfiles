@@ -1,3 +1,4 @@
-FROM ubuntu
-CMD echo hello docker
+FROM scratch
+ADD hello /
+cmd ./hello
 
